@@ -1,7 +1,7 @@
 body {
 	font-family: 'Asap', sans-serif;
 	margin: 0 auto;
-	width: 80%;
+	width: 70%;
 }
 
 div {
@@ -16,16 +16,22 @@ img {
 	padding: 2%;
 }
 
+
 /*
 NAV BAR STYLING 
 */
 
 nav {
-	 background-color: rgb(3, 46, 168);
+	 background-color: rgba(3, 46, 168, 0.8);
 	 width: 100%;
-	 padding: 2% 0;
+	 padding: 1% 0;
 	 text-align: center;
 
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
 }
 
 nav a {
@@ -52,7 +58,7 @@ h2 {
 	font-weight: lighter;
 	font-size: 1.1em;
 	color: #191919;
-	line-height: 1.4em;
+	line-height: 1.75em;
 	max-width: 90%;
 	padding: 0 5% 1% 5%;
 	margin: 5% 0;
@@ -81,6 +87,10 @@ footer {
 
 .culture {
 	border-left: 1px solid #7F7F7F;
+}
+
+.container {
+	background-color: rgb(205, 205, 205);
 }
 
 .hiring {
