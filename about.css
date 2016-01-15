@@ -4,29 +4,11 @@ body {
 	width: 70%;
 }
 
-div {
-	width: 15%;
-	margin: 0.5%;
-	float: left;
-	height: 285px;
-}
-
-img {
-	width: 95%;
-	padding: 2%;
-}
-
-
-/*
-NAV BAR STYLING 
-*/
-
 nav {
 	 background-color: rgba(3, 46, 168, 0.8);
 	 width: 100%;
 	 padding: 1% 0;
 	 text-align: center;
-
 }
 
 nav ul li {
@@ -45,10 +27,6 @@ nav a:hover {
 	text-shadow: 1px 1px 3px #410546; 
 }
 
-/*
-END NAV BAR STYLING 
-*/
-
 h1 {
 	font-weight: lighter;
 	margin: 3% 0;
@@ -65,18 +43,6 @@ p {
 	border-left: 2px solid #7F7F7F;
 }
 
-h4 {
-	text-align: center;
-	font-weight: lighter;
-	color: #535353;
-}
-
-h5 {
-	text-align: center;
-	font-weight: lighter;
-	font-style: italic;
-}
-
 footer {
 	display: block;
 	clear: both;
@@ -84,27 +50,3 @@ footer {
 	color: #A1A1A1;
 	text-align: center;
 }
-
-.culture {
-	border-left: 1px solid #7F7F7F;
-}
-
-.container {
-	background-color: rgb(205, 205, 205);
-}
-
-.hiring {
-	width: 100%;
-	color: #003C08;
-	font-size: 2em;
-	font-weight: lighter;
-	text-align: center;
-	margin: 0;
-}
-
-.hiring a {
-	color: #4F4F4F;
-	font-weight: lighter;
-	text-decoration: none;
-}
-
