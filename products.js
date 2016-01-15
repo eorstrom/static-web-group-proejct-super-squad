@@ -61,10 +61,10 @@ console.log(products);
 
 for (var i = 0; i < products.length; i++) {
     var contents = "";
-    contents += '<h1>' + products[i].name + '</h1>';
+    contents += '<h2>' + products[i].name + '</h2>';
     contents += '<img src="' + products[i].url +'"/>';
-    contents += '<p>' + products[i].price + '</p>';
-    contents += '<p>' + products[i].description + '</p>';
+    contents += '<p>Price: ' + products[i].price + '</p>';
+    contents += '<p>Description: <br>' + products[i].description + '</p>';
     productContent[i].innerHTML = contents;
 };
 
