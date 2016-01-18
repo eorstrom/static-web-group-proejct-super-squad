@@ -162,11 +162,6 @@ div.products img {
     margin: 0 auto;
 }
 
-div.products:nth-child(2) {
-	height: 50px;
-	overflow: scroll;
-}
-
 .product-container {
 width: 100%;
 margin: 0 auto;
