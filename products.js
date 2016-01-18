@@ -5,7 +5,7 @@ var product1 = {
     name: "Authentic Cowboy Hat",
     url: "http://www.fashionsthree.com/wp-content/uploads/2015/08/cowboy-hats-11.jpg",
     price: "$10.99",
-    description: "An authentic cowboy hat to showcase your country style while touring around Music City, home of country music."
+    description: "An authentic cowboy hat to showcase your country style while touring around Music City."
 };
 var product2 = {
     name: "Cowboy Boots",
@@ -17,7 +17,7 @@ var product3 = {
     name: "Southern Artisian Chocolate Bars",
     url: "http://blog.imogeneandwillie.com/wp-content/uploads/2012/09/oliveSinclair-640x5381.jpg",
     price: "$25.99",
-    description: ""
+    description: "Some of the most delicious chocolate bars you will ever eat"
 };
 var product4 = {
     name: "Belt Buckle",
@@ -63,9 +63,8 @@ for (var i = 0; i < products.length; i++) {
     var contents = "";
     contents += '<h2>' + products[i].name + '</h2>';
     contents += '<img src="' + products[i].url +'"/>';
-    contents += '<p>Price: ' + products[i].price + '</p>';
-    contents += '<p>Description: <br>' + products[i].description + '</p>';
+    contents += '<p>Price: ' + products[i].price + '</p>' + '<hr>';
+    contents += '<p class="product-description">Description: ' + products[i].description + '</p>';
     productContent[i].innerHTML = contents;
 };
-
 
